@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-gateway" />
+        <module name="microservice-system-server" />
+        <module name="microservice-bus-servuce" />
+        <module name="microservice-search" />
+        <module name="microservice-common-redis" />
+        <module name="microservice-common-core" />
+        <module name="microservice-common-datasource" />
+        <module name="microservice-upload" />
+        <module name="microservice-admin" />
+        <module name="microservice-bus-api" />
+        <module name="microservice-common-security" />
+        <module name="microservice-oauth" />
+        <module name="microservice-bus" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice" target="1.8" />
+      <module name="microservice-admin" target="1.8" />
+      <module name="microservice-apm" target="1.8" />
+      <module name="microservice-bus" target="1.8" />
+      <module name="microservice-bus-api" target="1.8" />
+      <module name="microservice-bus-servuce" target="1.8" />
+      <module name="microservice-common" target="1.8" />
+      <module name="microservice-common-core" target="1.8" />
+      <module name="microservice-common-datasource" target="1.8" />
+      <module name="microservice-common-redis" target="1.8" />
+      <module name="microservice-common-security" target="1.8" />
+      <module name="microservice-gateway" target="1.8" />
+      <module name="microservice-oauth" target="1.8" />
+      <module name="microservice-search" target="1.8" />
+      <module name="microservice-server" target="1.8" />
+      <module name="microservice-system-server" target="1.8" />
+      <module name="microservice-upload" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservice-admin" options="-parameters" />
+      <module name="microservice-bus" options="-parameters" />
+      <module name="microservice-common" options="-parameters" />
+      <module name="microservice-common-core" options="-parameters" />
+      <module name="microservice-common-datasource" options="-parameters" />
+      <module name="microservice-common-redis" options="-parameters" />
+      <module name="microservice-common-security" options="-parameters" />
+      <module name="microservice-gateway" options="-parameters" />
+      <module name="microservice-oauth" options="-parameters" />
+      <module name="microservice-search" options="-parameters" />
+      <module name="microservice-server" options="" />
+      <module name="microservice-system-server" options="-parameters" />
+      <module name="microservice-upload" options="-parameters" />
+    </option>
+  </component>
+</project>

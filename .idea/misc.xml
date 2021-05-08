@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-common/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-search/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-server/microservice-system-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-bus/microservice-bus-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-apm/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-apm/microservice-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-common/microservice-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-common/microservice-common-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-common/microservice-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-common/microservice-common-security/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
