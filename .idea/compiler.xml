@@ -18,7 +18,6 @@
         <module name="microservice-bus-api" />
         <module name="microservice-common-security" />
         <module name="microservice-oauth" />
-        <module name="microservice-bus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,7 +34,7 @@
       <module name="microservice-common-security" target="1.8" />
       <module name="microservice-gateway" target="1.8" />
       <module name="microservice-oauth" target="1.8" />
-      <module name="microservice-search" target="1.8" />
+      <module name="microservice-search" target="1.5" />
       <module name="microservice-server" target="1.8" />
       <module name="microservice-system-server" target="1.8" />
       <module name="microservice-upload" target="1.8" />
@@ -45,6 +44,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservice-admin" options="-parameters" />
       <module name="microservice-bus" options="-parameters" />
+      <module name="microservice-bus-api" options="-parameters" />
       <module name="microservice-common" options="-parameters" />
       <module name="microservice-common-core" options="-parameters" />
       <module name="microservice-common-datasource" options="-parameters" />

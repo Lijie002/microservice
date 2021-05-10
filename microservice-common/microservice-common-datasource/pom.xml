@@ -9,7 +9,6 @@
     </parent>
 
     <artifactId>microservice-common-datasource</artifactId>
-
     <name>microservice-common-datasource</name>
 
     <dependencies>

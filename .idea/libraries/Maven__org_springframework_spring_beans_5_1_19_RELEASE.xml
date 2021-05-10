@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: de.codecentric:spring-boot-admin-server:2.3.0">
+  <library name="Maven: org.springframework:spring-beans:5.1.19.RELEASE">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-server/2.3.0/spring-boot-admin-server-2.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.19.RELEASE/spring-beans-5.1.19.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-server/2.3.0/spring-boot-admin-server-2.3.0-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.19.RELEASE/spring-beans-5.1.19.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/de/codecentric/spring-boot-admin-server/2.3.0/spring-boot-admin-server-2.3.0-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.19.RELEASE/spring-beans-5.1.19.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

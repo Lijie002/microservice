@@ -9,6 +9,7 @@
     </parent>
 
     <artifactId>microservice-common-core</artifactId>
+
     <name>microservice-common-core</name>
 
     <dependencies>

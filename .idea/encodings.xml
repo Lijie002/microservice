@@ -16,8 +16,10 @@
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-security/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-search/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/src/main/resources" charset="UTF-8" />
   </component>

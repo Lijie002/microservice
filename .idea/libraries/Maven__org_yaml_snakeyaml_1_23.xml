@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: org.eclipse.jetty:jetty-annotations:9.4.33.v20201020">
+  <library name="Maven: org.yaml:snakeyaml:1.23">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-annotations/9.4.33.v20201020/jetty-annotations-9.4.33.v20201020.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-annotations/9.4.33.v20201020/jetty-annotations-9.4.33.v20201020-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.23/snakeyaml-1.23-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-annotations/9.4.33.v20201020/jetty-annotations-9.4.33.v20201020-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.23/snakeyaml-1.23-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

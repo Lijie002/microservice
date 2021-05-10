@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: org.eclipse.jetty:jetty-http:9.4.33.v20201020">
+  <library name="Maven: org.springframework.boot:spring-boot-starter:2.1.18.RELEASE">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/9.4.33.v20201020/jetty-http-9.4.33.v20201020.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.1.18.RELEASE/spring-boot-starter-2.1.18.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/9.4.33.v20201020/jetty-http-9.4.33.v20201020-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.1.18.RELEASE/spring-boot-starter-2.1.18.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/9.4.33.v20201020/jetty-http-9.4.33.v20201020-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.1.18.RELEASE/spring-boot-starter-2.1.18.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

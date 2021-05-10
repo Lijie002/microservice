@@ -59,7 +59,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.1.18.RELEASE</version>
                 <configuration>
-                    <mainClass>com.example.microserviceoauth.MicroserviceOauthApplication</mainClass>
+                    <mainClass>com.qixinmini.microserviceoauth.OauthApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
