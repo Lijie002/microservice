@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" filepath="$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-oauth/microservice-oauth.iml" filepath="$PROJECT_DIR$/microservice-oauth/microservice-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-search/microservice-search.iml" filepath="$PROJECT_DIR$/microservice-search/microservice-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-search/microservice-search-api/microservice-search-api.iml" filepath="$PROJECT_DIR$/microservice-search/microservice-search-api/microservice-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-search/microservice-search-service/microservice-search-service.iml" filepath="$PROJECT_DIR$/microservice-search/microservice-search-service/microservice-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-server/microservice-server.iml" filepath="$PROJECT_DIR$/microservice-server/microservice-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-server.iml" filepath="$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-upload/microservice-upload.iml" filepath="$PROJECT_DIR$/microservice-upload/microservice-upload.iml" />

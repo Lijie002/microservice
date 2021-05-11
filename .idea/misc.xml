@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/microservice-common/microservice-common-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-common/microservice-common-redis/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-common/microservice-common-security/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-search/microservice-search-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-search/microservice-search-service/pom.xml" />
       </list>
     </option>
   </component>

@@ -18,5 +18,3 @@ spring:
     user:
       name: microservice
       password: 123456
-
-

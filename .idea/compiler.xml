@@ -9,6 +9,7 @@
         <module name="microservice-gateway" />
         <module name="microservice-system-server" />
         <module name="microservice-bus-servuce" />
+        <module name="microservice-search-api" />
         <module name="microservice-search" />
         <module name="microservice-common-redis" />
         <module name="microservice-common-core" />
@@ -17,6 +18,7 @@
         <module name="microservice-admin" />
         <module name="microservice-bus-api" />
         <module name="microservice-common-security" />
+        <module name="microservice-search-service" />
         <module name="microservice-oauth" />
       </profile>
     </annotationProcessing>
@@ -35,6 +37,8 @@
       <module name="microservice-gateway" target="1.8" />
       <module name="microservice-oauth" target="1.8" />
       <module name="microservice-search" target="1.5" />
+      <module name="microservice-search-api" target="1.8" />
+      <module name="microservice-search-service" target="1.8" />
       <module name="microservice-server" target="1.8" />
       <module name="microservice-system-server" target="1.8" />
       <module name="microservice-upload" target="1.8" />
@@ -45,6 +49,7 @@
       <module name="microservice-admin" options="-parameters" />
       <module name="microservice-bus" options="-parameters" />
       <module name="microservice-bus-api" options="-parameters" />
+      <module name="microservice-bus-servuce" options="-parameters" />
       <module name="microservice-common" options="-parameters" />
       <module name="microservice-common-core" options="-parameters" />
       <module name="microservice-common-datasource" options="-parameters" />

@@ -4,23 +4,30 @@
     <file url="file://$PROJECT_DIR$/microservice-apm/microservice-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-apm/microservice-admin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-datasource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-datasource/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-security/src/main/resources/META-INF/spring.factories" charset="US-ASCII" />
     <file url="file://$PROJECT_DIR$/microservice-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-search/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/banner.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/captcha.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/spy.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>
