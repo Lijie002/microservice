@@ -18,6 +18,7 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.csource:fastdfs-client-java:1.27-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.csource:fastdfs-client-java:1.29-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
   </component>
 </module>

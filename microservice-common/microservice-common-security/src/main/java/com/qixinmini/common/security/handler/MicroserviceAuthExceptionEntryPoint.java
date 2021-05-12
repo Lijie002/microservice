@@ -1,8 +1,7 @@
 package com.qixinmini.common.security.handler;
 
-import com.qixinmini.common.core.constant.MicroserviceConstant;
 import com.qixinmini.common.core.model.MicroserviceResponse;
-import com.qixinmini.common.core.utils.MicrosericeUtil;
+import com.qixinmini.common.core.utils.MicroserviceUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
@@ -26,6 +25,6 @@ public class MicroserviceAuthExceptionEntryPoint implements AuthenticationEntryP
         int status = HttpServletResponse.SC_UNAUTHORIZED;
         String message = "访问令牌不合法";
         log.error("客户端访问{}请求失败: {}", requestUri, message, authException);
-        MicrosericeUtil.makeJsonResponse(response, status, new MicroserviceResponse().message(message));
+        MicroserviceUtil.makeJsonResponse(response, status, new MicroserviceResponse().message(message));
     }
 }

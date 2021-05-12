@@ -2,7 +2,7 @@ package com.qixinmini.common.security.intercept;
 
 import com.qixinmini.common.core.constant.MicroserviceConstant;
 import com.qixinmini.common.core.model.MicroserviceResponse;
-import com.qixinmini.common.core.utils.MicrosericeUtil;
+import com.qixinmini.common.core.utils.MicroserviceUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.Base64Utils;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -16,7 +16,7 @@ public class MicroserviceProtectIntercept implements HandlerInterceptor {
         // 请求头判断是否匹配网关token
         String token = request.getHeader(MicroserviceConstant.GATEWAY_TOKEN_HEADER);
         if(StringUtils.isBlank(token)){
-            MicrosericeUtil.makeJsonResponse(response, HttpServletResponse.SC_FORBIDDEN, new MicroserviceResponse().message("请通过网关获取资源"));
+            MicroserviceUtil.makeJsonResponse(response, HttpServletResponse.SC_FORBIDDEN, new MicroserviceResponse().message("请通过网关获取资源"));
             return  false;
         }else{
             String value = new String(Base64Utils.encode(MicroserviceConstant.GATEWAY_TOKEN_VALUE.getBytes()));

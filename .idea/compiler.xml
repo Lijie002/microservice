@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-gateway" />
-        <module name="microservice-system-server" />
         <module name="microservice-bus-servuce" />
         <module name="microservice-search-api" />
         <module name="microservice-search" />
@@ -18,7 +17,9 @@
         <module name="microservice-admin" />
         <module name="microservice-bus-api" />
         <module name="microservice-common-security" />
+        <module name="microservice-system-service" />
         <module name="microservice-search-service" />
+        <module name="microservice-system-api" />
         <module name="microservice-oauth" />
       </profile>
     </annotationProcessing>
@@ -36,11 +37,13 @@
       <module name="microservice-common-security" target="1.8" />
       <module name="microservice-gateway" target="1.8" />
       <module name="microservice-oauth" target="1.8" />
-      <module name="microservice-search" target="1.5" />
+      <module name="microservice-search" target="1.8" />
       <module name="microservice-search-api" target="1.8" />
       <module name="microservice-search-service" target="1.8" />
       <module name="microservice-server" target="1.8" />
+      <module name="microservice-system-api" target="1.8" />
       <module name="microservice-system-server" target="1.8" />
+      <module name="microservice-system-service" target="1.8" />
       <module name="microservice-upload" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -58,8 +61,12 @@
       <module name="microservice-gateway" options="-parameters" />
       <module name="microservice-oauth" options="-parameters" />
       <module name="microservice-search" options="-parameters" />
+      <module name="microservice-search-api" options="-parameters" />
+      <module name="microservice-search-service" options="-parameters" />
       <module name="microservice-server" options="" />
+      <module name="microservice-system-api" options="-parameters" />
       <module name="microservice-system-server" options="-parameters" />
+      <module name="microservice-system-service" options="-parameters" />
       <module name="microservice-upload" options="-parameters" />
     </option>
   </component>

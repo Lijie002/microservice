@@ -1,6 +1,6 @@
 package com.qixinmini.gateway.runner;
 
-import com.qixinmini.common.core.constant.MicroserviceConstant;
+import com.qixinmini.common.core.utils.MicroserviceUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

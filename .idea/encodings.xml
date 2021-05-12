@@ -23,11 +23,12 @@
     <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/spy.properties" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

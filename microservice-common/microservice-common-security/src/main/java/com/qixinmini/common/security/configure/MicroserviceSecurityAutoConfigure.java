@@ -2,7 +2,7 @@ package com.qixinmini.common.security.configure;
 
 import com.google.common.net.HttpHeaders;
 import com.qixinmini.common.core.constant.MicroserviceConstant;
-import com.qixinmini.common.core.utils.MicrosericeUtil;
+import com.qixinmini.common.core.utils.MicroserviceUtil;
 import com.qixinmini.common.security.handler.MicroserviceAccessDeniedHandler;
 import com.qixinmini.common.security.handler.MicroserviceAuthExceptionEntryPoint;
 import com.qixinmini.common.security.properties.MicroserviceCloudSecurityProperties;
@@ -75,7 +75,7 @@ public class MicroserviceSecurityAutoConfigure {
             String gatewayToken = new String(Base64Utils.encode(MicroserviceConstant.GATEWAY_TOKEN_VALUE.getBytes()));
             requestTemplate.header(MicroserviceConstant.GATEWAY_TOKEN_HEADER, gatewayToken);
             // 得到当前的access_token 放入请求头
-            String authorizationToken = MicrosericeUtil.getCurrentTokenValue();
+            String authorizationToken = MicroserviceUtil.getCurrentTokenValue();
             requestTemplate.header(HttpHeaders.AUTHORIZATION, MicroserviceConstant.OAUTH2_TOKEN_TYPE + authorizationToken);
         };
     }

@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/microservice-common/microservice-common-security/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-search/microservice-search-api/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-search/microservice-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/pom.xml" />
       </list>
     </option>
   </component>
