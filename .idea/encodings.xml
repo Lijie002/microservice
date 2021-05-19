@@ -31,6 +31,7 @@
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/configure/SwaggerConfigure.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/controller/AttachmentController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/exception/UploadException.java" charset="UTF-8" />
@@ -46,6 +47,7 @@
     <file url="file://$PROJECT_DIR$/microservice-upload/src/main/resources/banner.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-upload/src/main/resources/fdfs_client.conf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-upload/src/main/resources/mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sql" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
