@@ -3,7 +3,7 @@ server:
 spring:
 
   application:
-    name: rainbow-auth
+    name: microservice-auth
   #注册nacos
   cloud:
     nacos:
@@ -31,7 +31,7 @@ spring:
   #redis
   redis:
     database: 0
-    host: 101.132.105.134
+    host: 127.0.0.1
     port: 6379
     lettuce:
       pool:
@@ -90,7 +90,7 @@ security:
 
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.rainbow.common.core.entity
+  type-aliases-package: com.qixinmini.common.core.model
   configuration:
     map-underscore-to-camel-case: true
   global-config:

@@ -167,7 +167,7 @@ public class MicroserviceUtil {
      * @author lijie
      * @createTime 2020-11-26 15:08:31
      * @param
-     * @return com.rainbow.common.core.entity.TableData
+     * @return
      */
     public static TableData buildTableData(IPage<?> iPage){
         TableData tableData = new TableData();

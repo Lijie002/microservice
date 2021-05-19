@@ -7,13 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-apm/microservice-apm.iml" filepath="$PROJECT_DIR$/microservice-apm/microservice-apm.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-bus/microservice-bus.iml" filepath="$PROJECT_DIR$/microservice-bus/microservice-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-bus/microservice-bus-api/microservice-bus-api.iml" filepath="$PROJECT_DIR$/microservice-bus/microservice-bus-api/microservice-bus-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/microservice-bus-servuce.iml" filepath="$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/microservice-bus-servuce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/microservice-bus-service.iml" filepath="$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/microservice-bus-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-common/microservice-common.iml" filepath="$PROJECT_DIR$/microservice-common/microservice-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-common/microservice-common-core/microservice-common-core.iml" filepath="$PROJECT_DIR$/microservice-common/microservice-common-core/microservice-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-common/microservice-common-datasource/microservice-common-datasource.iml" filepath="$PROJECT_DIR$/microservice-common/microservice-common-datasource/microservice-common-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-common/microservice-common-redis/microservice-common-redis.iml" filepath="$PROJECT_DIR$/microservice-common/microservice-common-redis/microservice-common-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-common/microservice-common-security/microservice-common-security.iml" filepath="$PROJECT_DIR$/microservice-common/microservice-common-security/microservice-common-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" filepath="$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-generator/microservice-generator.iml" filepath="$PROJECT_DIR$/microservice-generator/microservice-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-oauth/microservice-oauth.iml" filepath="$PROJECT_DIR$/microservice-oauth/microservice-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-search/microservice-search.iml" filepath="$PROJECT_DIR$/microservice-search/microservice-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-search/microservice-search-api/microservice-search-api.iml" filepath="$PROJECT_DIR$/microservice-search/microservice-search-api/microservice-search-api.iml" />

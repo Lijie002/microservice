@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -24,6 +27,8 @@
         <option value="$PROJECT_DIR$/microservice-search/microservice-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-api/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-bus/microservice-bus-service/pom.xml" />
       </list>
     </option>
   </component>

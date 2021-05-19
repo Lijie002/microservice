@@ -2,19 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-gateway" />
-        <module name="microservice-bus-servuce" />
         <module name="microservice-search-api" />
         <module name="microservice-search" />
         <module name="microservice-common-redis" />
+        <module name="microservice-generator" />
         <module name="microservice-common-core" />
         <module name="microservice-common-datasource" />
         <module name="microservice-upload" />
         <module name="microservice-admin" />
+        <module name="microservice-bus-service" />
         <module name="microservice-bus-api" />
         <module name="microservice-common-security" />
         <module name="microservice-system-service" />
@@ -29,13 +31,14 @@
       <module name="microservice-apm" target="1.8" />
       <module name="microservice-bus" target="1.8" />
       <module name="microservice-bus-api" target="1.8" />
-      <module name="microservice-bus-servuce" target="1.8" />
+      <module name="microservice-bus-service" target="1.8" />
       <module name="microservice-common" target="1.8" />
       <module name="microservice-common-core" target="1.8" />
       <module name="microservice-common-datasource" target="1.8" />
       <module name="microservice-common-redis" target="1.8" />
       <module name="microservice-common-security" target="1.8" />
       <module name="microservice-gateway" target="1.8" />
+      <module name="microservice-generator" target="1.8" />
       <module name="microservice-oauth" target="1.8" />
       <module name="microservice-search" target="1.8" />
       <module name="microservice-search-api" target="1.8" />
@@ -52,13 +55,14 @@
       <module name="microservice-admin" options="-parameters" />
       <module name="microservice-bus" options="-parameters" />
       <module name="microservice-bus-api" options="-parameters" />
-      <module name="microservice-bus-servuce" options="-parameters" />
+      <module name="microservice-bus-service" options="-parameters" />
       <module name="microservice-common" options="-parameters" />
       <module name="microservice-common-core" options="-parameters" />
       <module name="microservice-common-datasource" options="-parameters" />
       <module name="microservice-common-redis" options="-parameters" />
       <module name="microservice-common-security" options="-parameters" />
       <module name="microservice-gateway" options="-parameters" />
+      <module name="microservice-generator" options="-parameters" />
       <module name="microservice-oauth" options="-parameters" />
       <module name="microservice-search" options="-parameters" />
       <module name="microservice-search-api" options="-parameters" />

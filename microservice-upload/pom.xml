@@ -9,6 +9,7 @@
 
     <artifactId>microservice-upload</artifactId>
 
+    <name>文件上传</name>
     <dependencies>
         <!--fastDfs-->
         <dependency>
@@ -21,6 +22,18 @@
                     <artifactId>slf4j-log4j12</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qixinmini</groupId>
+            <artifactId>microservice-common-security</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qixinmini</groupId>
+            <artifactId>microservice-common-datasource</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

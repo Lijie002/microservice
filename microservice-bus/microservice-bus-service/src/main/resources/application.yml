@@ -1,0 +1,101 @@
+server:
+  port: 8885
+
+
+spring:
+  application:
+    name: microservice--bus
+
+
+  #注册nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 101.132.105.134:8848
+
+
+  datasource:
+    dynamic:
+      hikari:
+        connection-timeout: 30000
+        max-lifetime: 1800000
+        max-pool-size: 15
+        min-idle: 5
+        connection-test-query: select 1
+        pool-name: HikariCP
+      primary: base
+      datasource:
+        base:
+          username: root
+          password: 123456
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://101.132.105.134:3306/rainbow?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+      p6spy: true
+
+  #redis
+  redis:
+    database: 0
+    host: 101.132.105.134
+    port: 6379
+    lettuce:
+      pool:
+        min-idle: 8
+        max-idle: 500
+        max-active: 2000
+        max-wait: 10000
+    timeout: 5000
+
+    #rabbitMq
+  rabbitmq:
+    host: 101.132.105.134
+    password: guest
+    port: 5672
+    username: guest
+
+    #开启消费端手动确认ack
+    listener:
+      simple:
+        acknowledge-mode: manual
+        #开启发送端确认回掉
+    publisher-confirms: true
+    publisher-returns: true
+    # 邮件
+  mail:
+    host: smtp.qq.com
+    username: 1649471814@qq.com
+    password: maicjbeefsinbhbc
+#开启feign熔断
+#feign:
+#  hystrix:
+#    enabled: true
+
+
+# 为了让feign获得token
+hystrix:
+  shareSecurityContext: true
+
+# 客户端的每一次请求都会去认证服务器校验token
+security:
+  oauth2:
+    resource:
+      id: ${spring.application.name}
+      user-info-uri: http://localhost:8882/auth/user
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.rainbow.bus.api.entity
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    banner: false
+
+
+#自定义配置
+rainbow:
+  cloud:
+    security:
+      # 免认证url 多个逗号拼接
+      anonUris: /actuator/**,/captcha,/swagger-ui.html,/webjars/**,/swagger-resources/**,/v2/api-docs/**,/menu/download
+      # 是否开启禁止请求绕过网关
+      enable: false

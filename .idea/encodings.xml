@@ -4,8 +4,9 @@
     <file url="file://$PROJECT_DIR$/microservice-apm/microservice-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-apm/microservice-admin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-servuce/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-bus/microservice-bus-service/src/main/resources/mapper/MsgLogMapper.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-datasource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-datasource/src/main/resources" charset="UTF-8" />
@@ -16,6 +17,8 @@
     <file url="file://$PROJECT_DIR$/microservice-common/microservice-common-security/src/main/resources/META-INF/spring.factories" charset="US-ASCII" />
     <file url="file://$PROJECT_DIR$/microservice-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-generator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-oauth/src/main/resources/banner.txt" charset="UTF-8" />
@@ -26,9 +29,23 @@
     <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-search/microservice-search-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-server/microservice-system-server/microservice-system-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/configure/SwaggerConfigure.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/controller/AttachmentController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/exception/UploadException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/fastdfs/FastDFSClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/fastdfs/FastDFSFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/handler/UploadExceptionHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/mapper/AttachmentMapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/model/Attachment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/runner/runner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/service/AttachmentService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/java/com/qixinmini/microserviceupload/service/impl/AttachmentServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/resources/banner.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/resources/fdfs_client.conf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-upload/src/main/resources/mapper" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

@@ -13,7 +13,7 @@
 
     <modules>
         <module>microservice-bus-api</module>
-        <module>microservice-bus-servuce</module>
+        <module>microservice-bus-service</module>
     </modules>
 
     <dependencies>
